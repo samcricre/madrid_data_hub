@@ -18,21 +18,4 @@ main{padding:30px 0 54px}.panel,.card{background:var(--card);border:1px solid va
 .event-list{display:grid;gap:14px}.event-card{display:grid;grid-template-columns:95px 1fr auto;gap:16px;align-items:center;background:var(--card);border:1px solid var(--border);border-radius:20px;padding:18px;box-shadow:var(--shadow)}
 .datebox{background:#eff6ff;color:#1d4ed8;border-radius:16px;text-align:center;padding:12px 8px;font-weight:900}.datebox .day{display:block;font-size:28px;line-height:1}.datebox .month{display:block;font-size:12px;margin-top:4px}.event-card h3{margin:0 0 6px}.event-meta{color:var(--muted);font-size:14px}
 footer{border-top:1px solid var(--border);color:var(--muted);padding:28px 0;font-size:14px}
-@media(max-width:920px){.hero-grid,.layout,.filters,.grid-3,.stats{grid-template-columns:1fr}.popup-link {
-  display: inline-block;
-  background: #2563eb;
-  color: #ffffff !important;
-  padding: 12px 18px;
-  border-radius: 999px;
-  font-weight: 800;
-  font-size: 14px;
-  text-decoration: none !important;
-  margin-top: 12px;
-  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
-  transition: all 0.2s ease;
-}
-
-.popup-link:hover {
-  background: #1d4ed8;
-  transform: translateY(-1px);
-}.nav-links{display:none}#map{height:520px}.side{max-height:none}.event-card{grid-template-columns:1fr}}
+@media(max-width:920px){.hero-grid,.layout,.filters,.grid-3,.stats{grid-template-columns:1fr}.nav-links{display:none}#map{height:520px}.side{max-height:none}.event-card{grid-template-columns:1fr}}
