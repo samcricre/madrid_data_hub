@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puntos turísticos de Madrid | Madrid Data Hub</title>
+  <meta name="description" content="Mapa de puntos de interés turístico de Madrid basado en datos abiertos." />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="logo" href="/">
+        <span class="logo-mark">MD</span>
+        <span>Madrid Data Hub</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/fuentes-mascotas/">Fuentes mascotas</a>
+        <a href="/carreras-madrid/">Carreras Madrid</a>
+        <a href="/puntos-turisticos/">Turismo</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="badge">Herramienta · Turismo</span>
+        <h1>Puntos turísticos de Madrid</h1>
+        <p>Consulta en el mapa lugares de interés turístico de la ciudad de Madrid usando datos abiertos actualizados.</p>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong id="totalCount">-</strong><span>puntos cargados</span></div>
+        <div class="stat"><strong id="visibleCountStat">-</strong><span>visibles en mapa</span></div>
+        <div class="stat"><strong>Madrid</strong><span>ciudad</span></div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="container">
+      <section class="panel">
+        <div class="filters">
+          <div>
+            <label for="searchInput">Buscar punto turístico</label>
+            <input id="searchInput" type="search" placeholder="Ej: museo, palacio, plaza, parque..." />
+          </div>
+          <button id="resetBtn">Reset</button>
+        </div>
+      </section>
+
+      <section class="layout">
+        <div id="map"></div>
+        <aside>
+          <div class="panel"><strong id="visibleCount">-</strong> resultados encontrados</div>
+          <div class="side" id="resultsList"></div>
+        </aside>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">Fuente: datos abiertos de esmadrid / datos.gob.es.</div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    let places = [];
+    let markers = [];
+
+    const map = L.map('map').setView([40.4168, -3.7038], 12);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap'
+    }).addTo(map);
+
+    const searchInput = document.getElementById('searchInput');
+    const resetBtn = document.getElementById('resetBtn');
+    const resultsList = document.getElementById('resultsList');
+
+    function clean(value) {
+      return (value || '').toString().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
+    function findValue(obj, keys) {
+      if (!obj || typeof obj !== 'object') return '';
+      for (const key of keys) {
+        if (obj[key]) return obj[key];
+      }
+      return '';
+    }
+
+    function deepFindObjects(obj, results = []) {
+      if (!obj || typeof obj !== 'object') return results;
+
+      if (Array.isArray(obj)) {
+        obj.forEach(item => deepFindObjects(item, results));
+        return results;
+      }
+
+      const lat = findValue(obj, ['latitud', 'latitude', 'lat', 'geo:lat']);
+      const lon = findValue(obj, ['longitud', 'longitude', 'lng', 'lon', 'geo:long']);
+
+      const title = findValue(obj, ['nombre', 'name', 'title', 'titulo']);
+      const description = findValue(obj, ['descripcion', 'description', 'body', 'text']);
+
+      if (title && lat && lon) {
+        results.push({
+          title,
+          description,
+          lat: Number(String(lat).replace(',', '.')),
+          lon: Number(String(lon).replace(',', '.')),
+          raw: obj
+        });
+      }
+
+      Object.values(obj).forEach(value => deepFindObjects(value, results));
+      return results;
+    }
+
+    function normalizeData(data) {
+      const found = deepFindObjects(data);
+
+      return found.filter(item =>
+        Number.isFinite(item.lat) &&
+        Number.isFinite(item.lon) &&
+        item.lat > 40 &&
+        item.lat < 41 &&
+        item.lon < -3 &&
+        item.lon > -4
+      );
+    }
+
+    function getFiltered() {
+      const q = clean(searchInput.value);
+
+      return places.filter(place => {
+        const searchable = clean([
+          place.title,
+          place.description
+        ].join(' '));
+
+        return !q || searchable.includes(q);
+      });
+    }
+
+    function render() {
+      const filtered = getFiltered();
+
+      document.getElementById('visibleCount').textContent = filtered.length;
+      document.getElementById('visibleCountStat').textContent = filtered.length;
+
+      markers.forEach(marker => map.removeLayer(marker));
+      markers = [];
+      resultsList.innerHTML = '';
+
+      filtered.forEach(place => {
+        const marker = L.marker([place.lat, place.lon]).addTo(map);
+
+        const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${place.lat},${place.lon}`;
+
+        marker.bindPopup(`
+          <strong>${place.title}</strong><br><br>
+          <span>${place.description || 'Sin descripción disponible'}</span><br><br>
+          <a href="${mapsUrl}" target="_blank" rel="noopener">Abrir en Google Maps</a>
+        `);
+
+        markers.push(marker);
+
+        const card = document.createElement('article');
+        card.className = 'result-card';
+        card.innerHTML = `
+          <h3>${place.title}</h3>
+          <p>${place.description || 'Sin descripción disponible'}</p>
+          <span class="pill neutral">Punto turístico</span>
+        `;
+
+        card.addEventListener('click', () => {
+          map.setView([place.lat, place.lon], 17);
+          marker.openPopup();
+        });
+
+        resultsList.appendChild(card);
+      });
+
+      if (markers.length > 0) {
+        map.fitBounds(L.featureGroup(markers).getBounds().pad(0.12));
+      }
+    }
+
+    async function loadData() {
+      const response = await fetch('../data/puntos-turisticos.json');
+      const data = await response.json();
+
+      places = normalizeData(data);
+
+      document.getElementById('totalCount').textContent = places.length;
+
+      render();
+    }
+
+    searchInput.addEventListener('input', render);
+
+    resetBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      render();
+    });
+
+    loadData();
+  </script>
+</body>
+</html>
