@@ -7,6 +7,50 @@
   <meta name="description" content="Mapa de puntos de interés turístico de Madrid basado en datos abiertos." />
   <link rel="stylesheet" href="../assets/style.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+  .leaflet-popup-content {
+    max-height: 360px;
+    overflow-y: auto;
+    padding-right: 6px;
+  }
+
+  .leaflet-popup-content::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .leaflet-popup-content::-webkit-scrollbar-thumb {
+    background: #94a3b8;
+    border-radius: 999px;
+  }
+
+  .popup-title {
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .popup-address {
+    color: #475569;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .popup-description {
+    line-height: 1.45;
+    margin-bottom: 14px;
+  }
+
+  .popup-link {
+    display: inline-block;
+    background: #2563eb;
+    color: white !important;
+    padding: 9px 12px;
+    border-radius: 999px;
+    font-weight: 800;
+    text-decoration: none;
+    margin-top: 8px;
+  }
+</style>
 </head>
 <body>
   <header class="topbar">
@@ -172,10 +216,13 @@
         const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${place.lat},${place.lon}`;
 
         marker.bindPopup(`
-          <strong>${place.title}</strong><br><br>
-          <span>${place.description || 'Sin descripción disponible'}</span><br><br>
-          <a href="${mapsUrl}" target="_blank" rel="noopener">Abrir en Google Maps</a>
-        `);
+  <div class="popup-title">${place.title}</div>
+  <div class="popup-address">${place.address || 'Sin dirección disponible'}</div>
+  <div class="popup-description">${place.description || 'Sin descripción disponible'}</div>
+  <a class="popup-link" href="${mapsUrl}" target="_blank" rel="noopener">
+    Abrir en Google Maps
+  </a>
+`);
 
         markers.push(marker);
 
