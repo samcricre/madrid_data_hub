@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "scripts": {
+    "update-data": "node scripts/update-data.js"
+  }
+}
