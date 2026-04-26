@@ -121,16 +121,26 @@
     }
 
     function normalizeData(data) {
-      const found = deepFindObjects(data);
+     const services = data?.serviceList?.service || [];
 
-      return found.filter(item =>
-        Number.isFinite(item.lat) &&
-        Number.isFinite(item.lon) &&
-        item.lat > 40 &&
-        item.lat < 41 &&
-        item.lon < -3 &&
-        item.lon > -4
-      );
+  return services
+    .map(item => {
+      const basic = item.basicData || {};
+      const geo = item.geoData || {};
+
+      return {
+        title: basic.name || 'Sitio turístico sin nombre',
+        description: basic.body || basic.description || '',
+        address: geo.address || '',
+        lat: Number(String(geo.latitude).replace(',', '.')),
+        lon: Number(String(geo.longitude).replace(',', '.')),
+        raw: item
+      };
+    })
+    .filter(item =>
+      Number.isFinite(item.lat) &&
+      Number.isFinite(item.lon)
+    );
     }
 
     function getFiltered() {
@@ -170,12 +180,12 @@
         markers.push(marker);
 
         const card = document.createElement('article');
-        card.className = 'result-card';
-        card.innerHTML = `
-          <h3>${place.title}</h3>
-          <p>${place.description || 'Sin descripción disponible'}</p>
-          <span class="pill neutral">Punto turístico</span>
-        `;
+          card.className = 'result-card';
+          card.innerHTML = `
+            <h3>${place.title}</h3>
+            <p>${place.address || place.description || 'Sin descripción disponible'}</p>
+            <span class="pill neutral">Punto turístico</span>
+          `;
 
         card.addEventListener('click', () => {
           map.setView([place.lat, place.lon], 17);
