@@ -61,25 +61,6 @@
       "references": {
         "@id": ""
       }
-    },
-    {
-      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50243609-zurich-rock-n-roll-running-series-madrid-2026.json",
-      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
-      "id": "50243609",
-      "title": "Zurich Rock ‘n’ Roll Running Series Madrid 2026",
-      "description": "",
-      "free": 0,
-      "price": "",
-      "dtstart": "2026-04-26 08:00:00.0",
-      "dtend": "2026-04-26 23:59:00.0",
-      "time": "08:00",
-      "excluded-days": "",
-      "uid": "50243609",
-      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a2b980033b3bc910VgnVCM200000f921e388RCRD",
-      "event-location": "",
-      "references": {
-        "@id": ""
-      }
     }
   ]
 }
