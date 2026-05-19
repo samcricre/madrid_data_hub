@@ -44,6 +44,47 @@
   },
   "@graph": [
     {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50312958-carrera-ninos-cancer-city.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50312958",
+      "title": "Carrera Niños sin Cáncer City",
+      "description": "",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-05-24 08:30:00.0",
+      "dtend": "2026-05-24 23:59:00.0",
+      "time": "08:30",
+      "excluded-days": "",
+      "uid": "50312958",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b92f219f2a3e910VgnVCM200000f921e388RCRD",
+      "event-location": "Parque Juan Carlos I",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=ee264b289d02e910VgnVCM200000f921e388RCRD"
+      },
+      "relation": {
+        "@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987836-parque-juan-carlos-i.json"
+      },
+      "address": {
+        "district": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid 28042/Distrito/Barajas"
+        },
+        "area": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid 28042/Distrito/Barajas/Barrio/Corralejos",
+          "locality": "MADRID 28042",
+          "postal-code": "28042",
+          "street-address": "GLORIETA S.A.R. DON JUAN DE BORBON Y BATTEMBERG, 5 5"
+        }
+      },
+      "location": {
+        "latitude": 40.45999848510341,
+        "longitude": -3.6148888706303586
+      },
+      "organization": {
+        "organization-name": "Parque Juan Carlos I",
+        "accesibility": "2"
+      }
+    },
+    {
       "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50247653-vi-media-maraton-carabanchel.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
       "id": "50247653",
