@@ -109,6 +109,25 @@
       }
     },
     {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50316413-v-gran-premio-internacional-madrid-marcha.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50316413",
+      "title": "V Gran Premio Internacional Madrid Marcha",
+      "description": "",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-05-31 09:00:00.0",
+      "dtend": "2026-05-31 23:59:00.0",
+      "time": "09:00",
+      "excluded-days": "",
+      "uid": "50316413",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=0f3783cb10a4e910VgnVCM200000f921e388RCRD",
+      "event-location": "",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b8b9dc0dd994e910VgnVCM200000f921e388RCRD"
+      }
+    },
+    {
       "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50247653-vi-media-maraton-carabanchel.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
       "id": "50247653",
