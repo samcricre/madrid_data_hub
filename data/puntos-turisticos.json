@@ -8,6 +8,106 @@
       {
         "basicData": {
           "language": "es",
+          "name": "Espacio Alma",
+          "email": "info@espacioalma.es",
+          "phone": "",
+          "fax": "",
+          "title": "Espacio Alma",
+          "body": "<p><strong>Situado en el espacio que ocupó hasta hace unos años el Cine Verdi de Alberto Aguilera, en el barrio de Argüelles, en Chamberí, este nuevo teatro, gestionado por la productora Onbeat, propone una variada programación que apuesta&nbsp;por la diversidad de formatos, desde&nbsp;teatro clásico y contemporáneo a&nbsp;danza, monólogos de humor, conciertos y espectáculos musicales.&nbsp;</strong></p><p>El espacio ha sido reacondicionado por completo para ofrecer las mejores condiciones técnicas y de confort del momento tanto para el público como para los artistas.</p><p>El teatro, que es uno de los de mayor capacidad en el centro de la ciudad, dispone de dos salas: la <strong>Sala Roja</strong>, que es la sala principal, dotada con tecnología LED 360° y con aforo para 300 personas; y la <strong>Sala Azul,</strong>&nbsp;un espacio versátil perfecto para cenas espectáculo y eventos privados, con aforo en formato teatro para 200 butacas.</p><p class=\"normal\">Además, Espacio Alma dispone de una propuesta gastronómica de calidad pensada para cada montaje y elaborada con productos de temporada de proveedores locales. Diseñan menús degustación, cócteles y propuestas a medida de cada evento privado.</p><p>&nbsp;</p>",
+          "web": "https://www.esmadrid.com/informacion-turistica/espacio-alma"
+        },
+        "geoData": {
+          "address": "de Alberto Aguilera, 4",
+          "zipcode": 28015,
+          "locality": "",
+          "country": "Spain",
+          "latitude": 40.4299926,
+          "longitude": -3.706535,
+          "subAdministrativeArea": "Madrid"
+        },
+        "multimedia": {
+          "media": [
+            {
+              "description": "",
+              "url": "https://estaticos.esmadrid.com/cdn/farfuture/yELmwYHMYOxIrpP1q1klwT3l1Z9hO0WglHD9hcVlbkI/mtime:1780993601/sites/default/files/recursosturisticos/infoturistica/espacio_alma.png",
+              "type": "image"
+            },
+            {
+              "description": "",
+              "url": "https://estaticos.esmadrid.com/cdn/farfuture/qcbQiJ3d50il7qrIYdzlRk_Ul1r47mKrFAUCvWV62CQ/mtime:1780993639/sites/default/files/recursosturisticos/infoturistica/espacio_alma_2.png",
+              "type": "image"
+            }
+          ]
+        },
+        "extradata": {
+          "item": [
+            {
+              "text": 1,
+              "name": "idTipo"
+            },
+            {
+              "text": "Información turística",
+              "name": "Tipo"
+            },
+            {
+              "text": "<p>Consultar programación</p>",
+              "name": "Servicios de pago"
+            },
+            {
+              "text": "<p><strong>Horario de taquilla:</strong></p><p>Miér - Dom: 17:00 - 21:00 h</p>",
+              "name": "Horario"
+            }
+          ],
+          "categorias": {
+            "categoria": [
+              {
+                "item": [
+                  {
+                    "text": 7483,
+                    "name": "idCategoria"
+                  },
+                  {
+                    "text": "Espacios para eventos",
+                    "name": "Categoria"
+                  }
+                ]
+              },
+              {
+                "item": [
+                  {
+                    "text": 7172,
+                    "name": "idCategoria"
+                  },
+                  {
+                    "text": "Instalaciones culturales",
+                    "name": "Categoria"
+                  }
+                ],
+                "subcategorias": {
+                  "subcategoria": {
+                    "item": [
+                      {
+                        "text": 7180,
+                        "name": "idSubCategoria"
+                      },
+                      {
+                        "text": "Teatros",
+                        "name": "SubCategoria"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "fechas": ""
+        },
+        "fechaActualizacion": "2026-06-09",
+        "id": "109164"
+      },
+      {
+        "basicData": {
+          "language": "es",
           "name": " Comunidad Evang&eacute;lica de Habla Alemana &ndash; Friedenskirche",
           "email": "friedenskirche@friedenskirche.es",
           "phone": "(+34) 91 435 47 81",
@@ -48771,6 +48871,71 @@
       {
         "basicData": {
           "language": "es",
+          "name": "Puerta de Hierro",
+          "email": "",
+          "phone": "",
+          "fax": "",
+          "title": "Puerta de Hierro",
+          "body": "<p><strong>Cerrando el cinturón de <a href=\"https://www.esmadrid.com/informacion-turistica/pardo\">El Pardo</a>, la Puerta de Hierro se construyó durante el reinado de Fernando VI, en 1751. Es una obra del arquitecto Francisco Nagle e intervinieron en su elaboración Francisco Moradillo y el escultor Olivieri, que se encargaron de materializar los elementos decorativos. </strong></p><p>Realizada en estilo barroco clásico, siguiendo el gusto italiano y francés, consta de un arco de medio punto escoltado por dos pilares a los que está unido a través de una original verja de hierro forjado. El conjunto aparece rematado con un frontón presidido por un escudo real.</p><p>Ubicada en la zona del Monte del Pardo, cerca de <strong>Ciudad Universitaria</strong>, la Puerta de Hierro constituía el acceso a una zona restringida donde acudía a cazar el rey Fernando VI. Este espacio estaba delimitado por una valla de piedra, ladrillo y alambrada, de la que todavía hoy se conservan algunos restos. En este perímetro, en el que se cuentan diversas propiedades reales, crecieron varias poblaciones, como son El Pardo y Mingorrubio.</p><p>Esta puerta, a diferencia de las demás, está separada de la metrópoli, pero cerca del palacete conocido como Quinta de Goya, donde el famoso pintor tenía instalado su taller. De hecho, se encuentra emplazada en una encrucijada de carreteras, lo que provocó, durante una de las últimas ampliaciones llevadas a cabo en la Carretera de A Coruña, que hubiera que desmontarla pieza a pieza para alejarla unos metros de su ubicación tradicional.</p>",
+          "web": "https://www.esmadrid.com/informacion-turistica/puerta-de-hierro"
+        },
+        "geoData": {
+          "address": "Padre Huidobro, 1",
+          "zipcode": 28040,
+          "locality": "",
+          "country": "Spain",
+          "latitude": 40.45566641413,
+          "longitude": -3.74436378479,
+          "subAdministrativeArea": "Madrid"
+        },
+        "multimedia": {
+          "media": {
+            "description": "",
+            "url": "https://estaticos.esmadrid.com/cdn/farfuture/xMuRvZPlHohXw8A9CjmZzPPD5ReyKT7_tlPwWc-TxUs/mtime:1524832501/sites/default/files/recursosturisticos/infoturistica/Hierro_1400766357.886.jpg",
+            "type": "image"
+          }
+        },
+        "extradata": {
+          "item": [
+            {
+              "text": 1,
+              "name": "idTipo"
+            },
+            {
+              "text": "Información turística",
+              "name": "Tipo"
+            },
+            {
+              "text": "<p>--</p>",
+              "name": "Servicios de pago"
+            },
+            {
+              "text": "<p>--</p>",
+              "name": "Horario"
+            }
+          ],
+          "categorias": {
+            "categoria": {
+              "item": [
+                {
+                  "text": 7173,
+                  "name": "idCategoria"
+                },
+                {
+                  "text": "Edificios y monumentos",
+                  "name": "Categoria"
+                }
+              ]
+            }
+          },
+          "fechas": ""
+        },
+        "fechaActualizacion": "2026-02-27",
+        "id": "69715"
+      },
+      {
+        "basicData": {
+          "language": "es",
           "name": "Huerto de las Monjas (Jard&iacute;n del Palacio O&acute;Reilly)",
           "email": "",
           "phone": "",
@@ -48844,71 +49009,6 @@
         },
         "fechaActualizacion": "2025-02-18",
         "id": "69716"
-      },
-      {
-        "basicData": {
-          "language": "es",
-          "name": "Puerta de Hierro",
-          "email": "",
-          "phone": "",
-          "fax": "",
-          "title": "Puerta de Hierro",
-          "body": "<p><strong>Cerrando el cinturón de <a href=\"https://www.esmadrid.com/informacion-turistica/pardo\">El Pardo</a>, la Puerta de Hierro se construyó durante el reinado de Fernando VI, en 1751. Es una obra del arquitecto Francisco Nagle e intervinieron en su elaboración Francisco Moradillo y el escultor Olivieri, que se encargaron de materializar los elementos decorativos. </strong></p><p>Realizada en estilo barroco clásico, siguiendo el gusto italiano y francés, consta de un arco de medio punto escoltado por dos pilares a los que está unido a través de una original verja de hierro forjado. El conjunto aparece rematado con un frontón presidido por un escudo real.</p><p>Ubicada en la zona del Monte del Pardo, cerca de <strong>Ciudad Universitaria</strong>, la Puerta de Hierro constituía el acceso a una zona restringida donde acudía a cazar el rey Fernando VI. Este espacio estaba delimitado por una valla de piedra, ladrillo y alambrada, de la que todavía hoy se conservan algunos restos. En este perímetro, en el que se cuentan diversas propiedades reales, crecieron varias poblaciones, como son El Pardo y Mingorrubio.</p><p>Esta puerta, a diferencia de las demás, está separada de la metrópoli, pero cerca del palacete conocido como Quinta de Goya, donde el famoso pintor tenía instalado su taller. De hecho, se encuentra emplazada en una encrucijada de carreteras, lo que provocó, durante una de las últimas ampliaciones llevadas a cabo en la Carretera de A Coruña, que hubiera que desmontarla pieza a pieza para alejarla unos metros de su ubicación tradicional.</p>",
-          "web": "https://www.esmadrid.com/informacion-turistica/puerta-de-hierro"
-        },
-        "geoData": {
-          "address": "Padre Huidobro, 1",
-          "zipcode": 28040,
-          "locality": "",
-          "country": "Spain",
-          "latitude": 40.45566641413,
-          "longitude": -3.74436378479,
-          "subAdministrativeArea": "Madrid"
-        },
-        "multimedia": {
-          "media": {
-            "description": "",
-            "url": "https://estaticos.esmadrid.com/cdn/farfuture/xMuRvZPlHohXw8A9CjmZzPPD5ReyKT7_tlPwWc-TxUs/mtime:1524832501/sites/default/files/recursosturisticos/infoturistica/Hierro_1400766357.886.jpg",
-            "type": "image"
-          }
-        },
-        "extradata": {
-          "item": [
-            {
-              "text": 1,
-              "name": "idTipo"
-            },
-            {
-              "text": "Información turística",
-              "name": "Tipo"
-            },
-            {
-              "text": "<p>--</p>",
-              "name": "Servicios de pago"
-            },
-            {
-              "text": "<p>--</p>",
-              "name": "Horario"
-            }
-          ],
-          "categorias": {
-            "categoria": {
-              "item": [
-                {
-                  "text": 7173,
-                  "name": "idCategoria"
-                },
-                {
-                  "text": "Edificios y monumentos",
-                  "name": "Categoria"
-                }
-              ]
-            }
-          },
-          "fechas": ""
-        },
-        "fechaActualizacion": "2026-02-27",
-        "id": "69715"
       },
       {
         "basicData": {
@@ -59057,7 +59157,7 @@
           },
           "fechas": ""
         },
-        "fechaActualizacion": "2025-11-18",
+        "fechaActualizacion": "2026-06-09",
         "id": "69564"
       },
       {
@@ -79402,7 +79502,7 @@
           },
           "fechas": ""
         },
-        "fechaActualizacion": "2026-06-08",
+        "fechaActualizacion": "2026-06-09",
         "id": "69326"
       },
       {
