@@ -46590,7 +46590,7 @@
           "phone": "(+34) 914 78 22 53",
           "fax": "",
           "title": "Estadio de Vallecas",
-          "body": "<p><strong>Este campo de fútbol es el estadio donde juega el Rayo Vallecano. Situado en el popular distrito de Puente de Vallecas, al sudeste de&nbsp;Madrid, se encuentra en la confluencia entre las calles Payaso Fofó, Arroyo del Olivar y Avenida de la Albufera .</strong></p><p>El Rayo Vallecano nace en 1924 y el estadio actual fue levantado sobre el antiguo en 1973 y actualmente, tras su última reforma para adecuarse a las directrices de la UEFA, tiene capacidad para 14 708 espectadores sentados.</p><p>Además de ser escenario de la épica del equipo de fútbol vallecano, este estadio ha albergado grandes conciertos como el de Bob Dylan en 1980, Metallica en 1992 o Queen en 1986. Entre los artistas españoles que han llenado el estadio con sus conciertos están Barricada, Miguel Ríos&nbsp;o Luz Casal.</p><p>También es la meta de llegada de la&nbsp;tradicional carrera San Silvestre Vallecana, que todos los 31 de diciembre se celebra en Madrid.&nbsp;</p><p>&nbsp;</p>",
+          "body": "<hr><p class=\"heading-2\"><strong>Estadio cerrado hasta nuevo aviso por obras de remodelación</strong></p><hr><p><strong>Este campo de fútbol es el estadio donde juega el Rayo Vallecano. Situado en el popular distrito de Puente de Vallecas, al sudeste de&nbsp;Madrid, se encuentra en la confluencia entre las calles Payaso Fofó, Arroyo del Olivar y Avenida de la Albufera .</strong></p><p>El Rayo Vallecano nace en 1924 y el estadio actual fue levantado sobre el antiguo en 1973 y actualmente, tras su última reforma para adecuarse a las directrices de la UEFA, tiene capacidad para 14 708 espectadores sentados.</p><p>Además de ser escenario de la épica del equipo de fútbol vallecano, este estadio ha albergado grandes conciertos como el de Bob Dylan en 1980, Metallica en 1992 o Queen en 1986. Entre los artistas españoles que han llenado el estadio con sus conciertos están Barricada, Miguel Ríos&nbsp;o Luz Casal.</p><p>También es la meta de llegada de la&nbsp;tradicional carrera San Silvestre Vallecana, que todos los 31 de diciembre se celebra en Madrid.&nbsp;</p><p>&nbsp;</p>",
           "web": "https://www.esmadrid.com/informacion-turistica/campo-de-futbol-de-vallecas"
         },
         "geoData": {
@@ -46620,11 +46620,11 @@
               "name": "Tipo"
             },
             {
-              "text": "<p>--</p>",
+              "text": "<p>Consultar <a href=\"https://www.rayovallecano.es/estadio\" target=\"_blank\">página oficial</a></p>",
               "name": "Servicios de pago"
             },
             {
-              "text": "<p>--</p>",
+              "text": "<p>Consultar <a href=\"https://www.rayovallecano.es/estadio\" target=\"_blank\">página oficial</a></p>",
               "name": "Horario"
             }
           ],
@@ -46658,7 +46658,7 @@
           },
           "fechas": ""
         },
-        "fechaActualizacion": "2025-11-17",
+        "fechaActualizacion": "2026-07-28",
         "id": "69746"
       },
       {
