@@ -31935,11 +31935,11 @@
               "name": "Tipo"
             },
             {
-              "text": "<p>--</p>",
+              "text": "<p>Consultar <a href=\"http://www.ccchinamadrid.org/\" target=\"_blank\">página oficial</a></p>",
               "name": "Servicios de pago"
             },
             {
-              "text": "<p>Mar - Vier: 11:30 - 13:30 h / 17:30 - 20:30 h</p><p>Sábado: 11:30 - 14:00 h</p><p>Julio: Lun -Vier: 10:00 - 14:00 h / 16:00 - 18:30 h</p><p><strong>Biblioteca:</strong></p><p>Mar - Vier: 11:30 - 13:30 h / 17:30 - 20:30 h</p><p>Julio: Lun - Vier: 10:00 - 14:00 h / 16:00 - 18:30 h</p>",
+              "text": "<p>Martes a viernes: 11:30 - 13:30 h / 17:30 - 20:30 h</p><p>Sábado: 11:30 - 14:00 h</p><p><u>Julio</u>: lunes&nbsp;a viernes: 10:00 - 14:00 h / 16:00 - 18:30 h</p><p><u>Agosto</u>: cerrado del 1 al 31</p><p><strong>Biblioteca:</strong></p><p>Martes a viernes: 11:30 - 13:30 h / 17:30 - 20:30 h</p><p><u>Julio</u>: lunes&nbsp;a viernes: 10:00 - 14:00 h / 16:00 - 18:30 h</p><p><u>Agosto</u>: cerrado del 1 al 31</p>",
               "name": "Horario"
             }
           ],
@@ -31973,7 +31973,7 @@
           },
           "fechas": ""
         },
-        "fechaActualizacion": "2025-10-22",
+        "fechaActualizacion": "2026-07-30",
         "id": "77156"
       },
       {
