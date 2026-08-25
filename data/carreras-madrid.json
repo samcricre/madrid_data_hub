@@ -44,22 +44,44 @@
   },
   "@graph": [
     {
-      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50316413-v-gran-premio-internacional-madrid-marcha.json",
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50386232-half-madrid-triatlon-2026.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
-      "id": "50316413",
-      "title": "V Gran Premio Internacional Madrid Marcha",
+      "id": "50386232",
+      "title": "Half Madrid Triatlón 2026",
       "description": "",
       "free": 0,
       "price": "",
-      "dtstart": "2026-05-31 09:00:00.0",
-      "dtend": "2026-05-31 23:59:00.0",
-      "time": "09:00",
+      "dtstart": "2026-09-27 08:15:00.0",
+      "dtend": "2026-09-27 23:59:00.0",
+      "time": "08:15",
       "excluded-days": "",
-      "uid": "50316413",
-      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=0f3783cb10a4e910VgnVCM200000f921e388RCRD",
-      "event-location": "",
+      "uid": "50386232",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=9e9a12c32e230a10VgnVCM100000891ecb1aRCRD",
+      "event-location": "Parque de la Casa de Campo",
       "references": {
-        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b8b9dc0dd994e910VgnVCM200000f921e388RCRD"
+        "@id": ""
+      },
+      "relation": {
+        "@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987416-parque-casa-campo.json"
+      },
+      "address": {
+        "district": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+        },
+        "area": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo",
+          "locality": "MADRID",
+          "postal-code": "28011",
+          "street-address": "PASEO PUERTA DEL ANGEL 1"
+        }
+      },
+      "location": {
+        "latitude": 40.41472407139105,
+        "longitude": -3.7301857404819767
+      },
+      "organization": {
+        "organization-name": "Parque de la Casa de Campo",
+        "accesibility": "2"
       }
     }
   ]
