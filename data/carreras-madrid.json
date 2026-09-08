@@ -44,25 +44,6 @@
   },
   "@graph": [
     {
-      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50399566-carrera-popular-fiesta-elipa-2026.json",
-      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
-      "id": "50399566",
-      "title": "Carrera Popular Fiesta de la Elipa 2026",
-      "description": "",
-      "free": 0,
-      "price": "",
-      "dtstart": "2026-09-06 10:00:00.0",
-      "dtend": "2026-09-06 23:59:00.0",
-      "time": "10:00",
-      "excluded-days": "",
-      "uid": "50399566",
-      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b989996183160a10VgnVCM100000891ecb1aRCRD",
-      "event-location": "",
-      "references": {
-        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=de13b3f290160a10VgnVCM100000891ecb1aRCRD"
-      }
-    },
-    {
       "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50386232-half-madrid-triatlon-2026.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
       "id": "50386232",
@@ -100,6 +81,47 @@
       },
       "organization": {
         "organization-name": "Parque de la Casa de Campo",
+        "accesibility": "2"
+      }
+    },
+    {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50405793-xvi-carrera-menudos-corazones-2026-bimbo-global-race.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50405793",
+      "title": "XVI Carrera Menudos Corazones 2026 - Bimbo Global Race",
+      "description": "",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-09-27 09:30:00.0",
+      "dtend": "2026-09-27 23:59:00.0",
+      "time": "09:30",
+      "excluded-days": "",
+      "uid": "50405793",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=27909e13a3b70a10VgnVCM100000891ecb1aRCRD",
+      "event-location": "Parque Juan Carlos I",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=9227edaca1b70a10VgnVCM100000891ecb1aRCRD"
+      },
+      "relation": {
+        "@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987836-parque-juan-carlos-i.json"
+      },
+      "address": {
+        "district": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid 28042/Distrito/Barajas"
+        },
+        "area": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid 28042/Distrito/Barajas/Barrio/Corralejos",
+          "locality": "MADRID 28042",
+          "postal-code": "28042",
+          "street-address": "GLORIETA S.A.R. DON JUAN DE BORBON Y BATTEMBERG, 5 5"
+        }
+      },
+      "location": {
+        "latitude": 40.45999848510341,
+        "longitude": -3.6148888706303586
+      },
+      "organization": {
+        "organization-name": "Parque Juan Carlos I",
         "accesibility": "2"
       }
     },
