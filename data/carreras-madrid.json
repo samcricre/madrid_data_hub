@@ -44,6 +44,50 @@
   },
   "@graph": [
     {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50367469-correr-madrid-2026-2027.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50367469",
+      "title": "Correr por Madrid 2026-2027",
+      "description": "",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-09-01 00:00:00.0",
+      "dtend": "2027-06-30 23:59:00.0",
+      "time": "",
+      "excluded-days": "",
+      "recurrence": {
+        "days": "MO,TU,WE,TH,FR,SA,SU",
+        "frequency": "WEEKLY",
+        "interval": 1
+      },
+      "uid": "50367469",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=acd5c3dea898f910VgnVCM100000891ecb1aRCRD",
+      "event-location": "",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d82e55de4788f910VgnVCM100000891ecb1aRCRD"
+      }
+    },
+    {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50378935-dia-deporte-olimpico-2026.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Golf",
+      "id": "50378935",
+      "title": "Día del Deporte Olímpico 2026",
+      "description": "",
+      "free": 1,
+      "price": "",
+      "dtstart": "2026-09-26 12:00:00.0",
+      "dtend": "2026-09-26 23:59:00.0",
+      "time": "12:00",
+      "excluded-days": "",
+      "audience": "Jovenes,Mujeres,Niños,Familias,Mayores,Discapacitados",
+      "uid": "50378935",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=bb584190840ff910VgnVCM100000891ecb1aRCRD",
+      "event-location": "",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=806036b0320ff910VgnVCM100000891ecb1aRCRD"
+      }
+    },
+    {
       "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50386232-half-madrid-triatlon-2026.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
       "id": "50386232",
@@ -160,7 +204,7 @@
       "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=af8c8e5b6ff70a10VgnVCM200000f921e388RCRD",
       "event-location": "",
       "references": {
-        "@id": ""
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=719d128851c60a10VgnVCM100000891ecb1aRCRD"
       }
     },
     {
