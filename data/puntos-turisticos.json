@@ -14963,7 +14963,7 @@
           "phone": "",
           "fax": "",
           "title": "Museum of Illusions Madrid",
-          "body": "<p><strong>Con presencia en más de 18 países de todo el mundo, este original museo cuenta en Madrid con una de sus sedes. Situado entre Lavapiés y la <a href=\"https://www.esmadrid.com/informacion-turistica/puerta-del-sol\">Puerta del Sol</a>, el Museo de las Ilusiones es un espacio de recorridos, tanto sociales como entretenidos, que se adentran en el mundo de las ilusiones ópticas y que deleitará al público de todas las edades. </strong></p><p>El <strong>Museo de las Ilusiones</strong> se divide en varias estancias en las que el visitante puede vivir diferentes experiencias visuales, experimentales y educativas donde nada es lo que parece. Entre esas estancias están el Cuarto de Ames, el Cuarto Inclinado, el Cuarto Infinito, el Cuarto Invertido o el Túnel del Vórtice. Además, cuenta con el Salón de Juegos Inteligentes, donde poder entrenar el cerebro con diversos juegos.</p><p>A través de hologramas, trucos y juegos el público aprenderá cosas nuevas sobre la visión, la percepción, el cerebro humano y la ciencia, pudiendo entender que a veces los ojos ven cosas que el cerebro no puede comprender.</p><p>Desde octubre de 2023, el museo cuenta con nuevas salas, juegos e instalaciones, como la <em>Sala de la simetría</em>, que aunque se percibe como una sala completa, en realidad solo la mitad es visible; nuevos juegos de engaño como <em>Abre tu mente</em>, donde la exposición utiliza propiedades simétricas de la fuente (tipografía) de modo que sólo se escribe la mitad de las palabras; o el <em>Efecto Moiré</em>.</p><p>El museo dispone, además, de una tienda en la que se pueden encontrar más de 80 juegos de dilemas, puzles de madera, juegos de construcción, educativos y todo tipo de souvenirs.</p><p>&nbsp;</p><p><iframe frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/yNNO4JE4b-k\" title=\"YouTube video player\" width=\"560\"></iframe></p>",
+          "body": "<p><strong>Con presencia en más de 18 países de todo el mundo, este original museo cuenta en Madrid con una de sus sedes. Situado entre Lavapiés y la <a href=\"https://www.esmadrid.com/informacion-turistica/puerta-del-sol\" style=\"color:#467886; text-decoration:underline\">Puerta del Sol</a>, el Museo de las Ilusiones es una experiencia interactiva y educativa para todas las edades que se adentra en el mundo de las ilusiones ópticas y donde nada es lo que parece.</strong></p><p>El Museo de las Ilusiones se divide en varias estancias en las que el museo invita a descubrir el fascinante mundo de las ilusiones ópticas, la percepción y el cerebro humano a través de habitaciones que desafían la perspectiva, espejos, hologramas, juegos y diferentes efectos visuales. Entre esas estancias están el Cuarto de Ames, el Cuarto Inclinado, el Cuarto Infinito, el Cuarto Invertido y el Túnel del Vórtice, además de diferentes juegos y retos para poner a prueba la percepción y descubrir cómo percibimos la realidad. Un espacio para experimentar, participar y hacerse fotos.</p><p>El museo dispone, además, de una tienda en la que se pueden encontrar más de 80 juegos de dilemas, puzles de madera, juegos de construcción, educativos y todo tipo de souvenirs.</p><p><iframe frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/UNJXte1NLV0?si=tD8TGcsNMCRgWAXH\" title=\"YouTube video player\" width=\"560\"></iframe></p>",
           "web": "https://www.esmadrid.com/informacion-turistica/museum-illusions-madrid"
         },
         "geoData": {
@@ -15035,11 +15035,11 @@
               "name": "Tipo"
             },
             {
-              "text": "<p class=\"normal\"><strong>Adultos (13 - 64 años)</strong>: desde 15 €</p><p class=\"normal\"><strong>Niños (4-12 años):</strong> desde 11 €</p><p class=\"normal\"><strong>Estudiantes, mayores de 65 años, desempleados, personas con necesidades especiales, profesores</strong>: desde 12 €</p><p class=\"normal\"><strong>Entrada familiar (2 adultos y 2 niños, de 4 a 12 años)</strong>: desde 48 €</p><p class=\"normal\"><strong>Entrada infantil&nbsp;(0-3 años)</strong>: gratuita</p>",
+              "text": "<p class=\"normal\"><strong>Adultos (13 - 64 años)</strong>: desde 15 €</p><p class=\"normal\"><strong>Niños (4-12 años):</strong> desde 11 €</p><p class=\"normal\"><strong>Estudiantes, mayores de 65 años, desempleados, personas con necesidades especiales, profesores</strong>: desde 12 €</p><p class=\"normal\"><strong>Entrada familiar (2 adultos y 2 niños, de 4 a 12 años)</strong>: desde 48 €</p><p class=\"normal\"><strong>Entrada infantil&nbsp;(0-3 años)</strong>: gratuita</p><p class=\"normal\">Los precios pueden variar según la fecha y disponibilidad. Consulta el precio final al realizar la compra online.</p>",
               "name": "Servicios de pago"
             },
             {
-              "text": "<p>Lunes a jueves: 10:00 -&nbsp;21:00 h</p><p>Viernes: 10:00 - 22:00 h</p><p>Sábado: 09:30 - 22:30 h</p><p>Domingo: 09:30 - 21:00 h</p><p>Venta de entradas online con cita previa</p><p><em><strong>Última admisión 1 hora antes del cierre</strong></em></p><p>&nbsp;</p>",
+              "text": "<p>Lunes a jueves: 10:00 -&nbsp;21:00 h</p><p>Viernes: 10:00 - 22:00 h</p><p>Sábado: 09:30 - 22:00 h</p><p>Domingo: 09:30 - 21:00 h</p><p>Los horarios pueden variar según la temporada. Se recomienda consultar la información actualizada antes de la visita.</p><p><strong>Venta de entradas online con cita previa</strong></p><p><em><strong>Última admisión 1 hora antes del cierre</strong></em></p><p>&nbsp;</p>",
               "name": "Horario"
             }
           ],
@@ -15059,7 +15059,7 @@
           },
           "fechas": ""
         },
-        "fechaActualizacion": "2026-03-06",
+        "fechaActualizacion": "2026-09-16",
         "id": "94855"
       },
       {
@@ -21948,7 +21948,7 @@
           "phone": "",
           "fax": "",
           "title": "Iberdrola Music ",
-          "body": "<p><strong>Entre la carretera M-45 y la calle Laguna Dalga, en la Colonia Marconi (Villaverde), se sitúa el nuevo recinto que acoge el festival de música <a href=\"https://www.esmadrid.com/agenda/mad-cool-festival\" target=\"_blank\">Mad Cool</a></strong>, <strong>así como otros eventos musicales. Iberdrola Music (antes conocido como Nuevo Espacio de Festivales de Madrid) destaca por ser el espacio sostenible más grande de Europa, ya que su electrificación ha sido creada en su totalidad con energía verde.</strong></p><p>Este nuevo recinto, que cuenta con&nbsp;185 000 metros cuadrados y un aforo para más de 100 000 personas, dispone de todos los servicios necesarios para el desarrollo adecuado de los eventos musicales que en él se celebren, tanto de alimentación (barra, food trucks, según el evento), sanitarios (con la presencia de equipos de primeros auxilios), baños públicos, taquillas, etc...&nbsp;</p>",
+          "body": "<hr><p class=\"heading-3\"><u><strong>Plan de movilidad festival de Shakira</strong></u></p><p>Ante la afluencia estimada de 57.000 personas a cada uno de los 12 conciertos del festival Shakira Residencia Europea Madrid, que tendrán lugar en este recinto durante cuatro fines de semana consecutivos a partir del 18 de septiembre, el Ayuntamiento ha diseñado un plan de movilidad para facilitar el regreso de los asistentes. <strong><a href=\"https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-disena-un-plan-de-movilidad-de-cara-al-festival-shakira-residencia-europea-madrid/\">Más información, aquí.</a></strong></p><hr><p>&nbsp;</p><p><strong>Entre la carretera M-45 y la calle Laguna Dalga, en la Colonia Marconi (Villaverde), se sitúa el nuevo recinto que acoge el festival de música <a href=\"https://www.esmadrid.com/agenda/mad-cool-festival\" target=\"_blank\">Mad Cool</a></strong>, <strong>así como otros eventos musicales. Iberdrola Music (antes conocido como Nuevo Espacio de Festivales de Madrid) destaca por ser el espacio sostenible más grande de Europa, ya que su electrificación ha sido creada en su totalidad con energía verde.</strong></p><p>Este nuevo recinto, que cuenta con&nbsp;185 000 metros cuadrados y un aforo para más de 100 000 personas, dispone de todos los servicios necesarios para el desarrollo adecuado de los eventos musicales que en él se celebren, tanto de alimentación (barra, food trucks, según el evento), sanitarios (con la presencia de equipos de primeros auxilios), baños públicos, taquillas, etc...&nbsp;</p>",
           "web": "https://www.esmadrid.com/informacion-turistica/iberdrola-music"
         },
         "geoData": {
@@ -22023,7 +22023,7 @@
           },
           "fechas": ""
         },
-        "fechaActualizacion": "2025-12-16",
+        "fechaActualizacion": "2026-09-16",
         "id": "85912"
       },
       {
@@ -44725,15 +44725,15 @@
           "language": "es",
           "name": "Galer&iacute;a Sabrina Amrani",
           "email": "hello@sabrinaamrani.com",
-          "phone": "( +34) 910 69 03 22",
+          "phone": "( +34) 916 217 859",
           "fax": "",
           "title": "Galer&iacute;a Sabrina Amrani",
-          "body": "<p><strong>Sabrina Amrani abrió en 2011 un primer espacio en la zona de Malasaña. El programa internacional de la galería destaca artistas y prácticas que se hacen eco de valores y preocupaciones contemporáneas vinculadas con el Sur Global. Desde hace más de una década, la galería tiende puentes entre artistas, instituciones, profesionales del arte y el público.</strong></p><p>Impulsada por la filosofía de que el arte es el mejor embajador y la galería un espacio ideal para la conversación, Sabrina Amrani inauguró en 2019 su segundo espacio ubicado en el distrito de Carabanchel (Madrid), en la calle Sallaberry, 52 (tfno contacto: +34 916 217 859), una plataforma de 600 metros cuadrados dedicada a exposiciones de envergadura institucional.</p><p>En 2024, la galería marca un nuevo hito con la apertura de un espacio temporal en la histórica ciudad de AlUla (Arabia Saudí, febrero-marzo de 2024).&nbsp;</p><p>&nbsp;</p>",
+          "body": "<p><strong>Fundada en Madrid en 2011, Sabrina Amrani desarrolla un programa internacional que destaca a artistas cuyas prácticas abordan las cuestiones culturales, sociales y políticas que configuran nuestro mundo contemporáneo, fomentando el diálogo entre públicos locales e internacionales. En el centro de su visión reside la convicción de que el arte no es solo un objeto de contemplación, sino también un espacio para el encuentro, la conversación y la circulación de ideas.</strong></p><p>Tras una dilatada trayectoria en la capital, en 2019, la galería abrió un espacio de 600 m² en el barrio madrileño de Carabanchel (Sallaberry, 50), concebido como plataforma para exposiciones de escala institucional. En 2026, la galería amplió aún más su ecosistema con la apertura de dos nuevos espacios: Sabrina Amrani Editions, en el número 54 de la misma calle,&nbsp;y Sabrina Amrani Projects (Sallaberry, 52). Concebida como una extensión complementaria del programa de la galería, Editions se dedica a ediciones limitadas, publicaciones y nuevas formas de coleccionismo, mientras que Projects funciona como un espacio para la experimentación, la investigación y la colaboración por invitación.</p><p>En 2024, Sabrina Amrani inauguró un espacio temporal en la histórica ciudad de AlUla, Arabia Saudí, reforzando su larga trayectoria de colaboración con las comunidades artísticas de Oriente Medio, África y Asia.</p>",
           "web": "https://www.esmadrid.com/informacion-turistica/galeria-sabrina-amrani"
         },
         "geoData": {
-          "address": "de la Madera, 23",
-          "zipcode": 28004,
+          "address": "Sallaberry, 50",
+          "zipcode": 28019,
           "locality": "",
           "country": "Spain",
           "latitude": 40.4234509,
@@ -44796,7 +44796,7 @@
           },
           "fechas": ""
         },
-        "fechaActualizacion": "2025-12-11",
+        "fechaActualizacion": "2026-09-16",
         "id": "69783"
       },
       {
@@ -76257,7 +76257,7 @@
           },
           "fechas": ""
         },
-        "fechaActualizacion": "2026-09-14",
+        "fechaActualizacion": "2026-09-16",
         "id": "69363"
       },
       {
