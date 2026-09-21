@@ -189,25 +189,6 @@
       }
     },
     {
-      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50406352-xvii-carrera-madrid-segovia.json",
-      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
-      "id": "50406352",
-      "title": "XVII Carrera Madrid-Segovia",
-      "description": "",
-      "free": 0,
-      "price": "",
-      "dtstart": "2026-09-19 05:00:00.0",
-      "dtend": "2026-09-19 23:59:00.0",
-      "time": "05:00",
-      "excluded-days": "",
-      "uid": "50406352",
-      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=af8c8e5b6ff70a10VgnVCM200000f921e388RCRD",
-      "event-location": "",
-      "references": {
-        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=719d128851c60a10VgnVCM100000891ecb1aRCRD"
-      }
-    },
-    {
       "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50404391-xvii-carrera-popular-corazon-2026.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
       "id": "50404391",
