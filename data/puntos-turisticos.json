@@ -876,13 +876,13 @@
       {
         "basicData": {
           "language": "es",
-          "name": "Espacio Mistral",
-          "email": "info@espaciomistral.es",
+          "name": "Sala Novu",
+          "email": "info@salanovu.es",
           "phone": "",
           "fax": "",
-          "title": "Espacio Mistral",
-          "body": "<p class=\"normal\" style=\"margin-left:0px; margin-right:0px\"><strong>El barrio de Puerta del Ángel, en el distrito de Latina, frente a la Casa de Campo, alberga este nuevo espacio cultural en el que se dan la mano el teatro, la música, la danza, el cine y la palabra y donde la producción artística y la gestión cultural se equilibran para dar forma a proyectos de largo recorrido.</strong></p><p style=\"margin-left:0px; margin-right:0px\">Espacio Mistral busca contribuir al tejido cultural de la ciudad y dialogar con otras escenas iberoamericanas, europeas y asiáticas, impulsando la creación y el pensamiento crítico, para que “el arte circule y se encuentre con la comunidad”.</p><p style=\"margin-left:0px; margin-right:0px\">Su director artístico, Maximiliano Legnani, articulará su actividad en torno a cuatro grandes ejes que dialogan entre sí:&nbsp;</p><ul><li><p class=\"normal\">Teatro y dramaturgias contemporáneas</p></li><li><p class=\"normal\">Música en todas sus formas</p></li><li><p class=\"normal\">Danza, cuerpo y movimiento</p></li><li><p class=\"normal\">Cine, palabra y pensamiento</p></li></ul><p class=\"normal\">Cada uno de ellos&nbsp;se apoya en coproducciones, residencias y encuentros internacionales, fomentando la colaboración entre creadores y el intercambio entre Madrid, Latinoamérica, Europa y Asia.</p>",
-          "web": "https://www.esmadrid.com/informacion-turistica/espacio-mistral"
+          "title": "Sala Novu",
+          "body": "<p class=\"normal\" style=\"margin-left:0px; margin-right:0px\"><strong>El barrio de Puerta del Ángel, en el distrito de Latina, frente a la Casa de Campo, alberga este nuevo espacio cultural en el que se dan la mano el teatro, la música, la danza, el cine y la palabra y donde la producción artística y la gestión cultural se equilibran para dar forma a proyectos de largo recorrido.</strong></p><p style=\"margin-left:0px; margin-right:0px\">Sala Novu&nbsp;busca contribuir al tejido cultural de la ciudad y dialogar con otras escenas iberoamericanas, europeas y asiáticas, impulsando la creación y el pensamiento crítico, para que “el arte circule y se encuentre con la comunidad”.</p><p style=\"margin-left:0px; margin-right:0px\">Su director artístico, Maximiliano Legnani, articulará su actividad en torno a cuatro grandes ejes que dialogan entre sí:&nbsp;</p><ul><li><p class=\"normal\">Teatro y dramaturgias contemporáneas</p></li><li><p class=\"normal\">Música en todas sus formas</p></li><li><p class=\"normal\">Danza, cuerpo y movimiento</p></li><li><p class=\"normal\">Cine, palabra y pensamiento</p></li></ul><p class=\"normal\">Cada uno de ellos&nbsp;se apoya en coproducciones, residencias y encuentros internacionales, fomentando la colaboración entre creadores y el intercambio entre Madrid, Latinoamérica, Europa y Asia.</p>",
+          "web": "https://www.esmadrid.com/informacion-turistica/sala-novu"
         },
         "geoData": {
           "address": "de Portugal, 137",
@@ -956,7 +956,7 @@
           },
           "fechas": ""
         },
-        "fechaActualizacion": "2026-05-22",
+        "fechaActualizacion": "2026-09-23",
         "id": "107684"
       },
       {
@@ -20294,7 +20294,7 @@
               "name": "Tipo"
             },
             {
-              "text": "<p>Donativo: 1 €</p><p>Visita guiada: 4 €</p>",
+              "text": "<p>Donativo: 1 €</p><p>Visita guiada: 5 €</p>",
               "name": "Servicios de pago"
             },
             {
@@ -20318,7 +20318,7 @@
           },
           "fechas": ""
         },
-        "fechaActualizacion": "2025-10-30",
+        "fechaActualizacion": "2026-09-23",
         "id": "88027"
       },
       {
@@ -76718,7 +76718,7 @@
               "name": "Servicios de pago"
             },
             {
-              "text": "<p class=\"normal\">Consultar <a href=\"https://www.madrid.es/portales/munimadrid/es/Inicio/Cultura-ocio-y-deporte/Cultura-y-ocio/Ermita-de-San-Antonio-de-la-Florida-Museo-/?vgnextfmt=default&amp;vgnextoid=75950204770e7310VgnVCM2000000c205a0aRCRD&amp;vgnextchannel=c937f073808fe410VgnVCM2000000c205a0aRCRD&amp;idCapitulo=6586234&amp;rm=797368822e3ab010VgnVCM100000d90ca8c0RCRD\" target=\"_blank\"><strong>página oficial</strong></a>&nbsp;</p><p>Martes a domingos: 09:30 - 20:00 h</p><p><strong>Verano (del 15 de junio al 15 de septiembre)</strong></p><p>Martes a domingos: 09:30 - 14:00 h /&nbsp;15:00 - 19:00 h</p><p><strong>Cerrado:&nbsp;</strong>&nbsp;lunes (incluidos festivos), 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre</p>",
+              "text": "<p class=\"normal\">Consultar <a href=\"https://www.madrid.es/ermita\" target=\"_blank\"><strong>página oficial</strong></a>&nbsp;</p><p>Martes a domingos: 09:30 - 20:00 h</p><p><strong>Verano (del 15 de junio al 15 de septiembre)</strong></p><p>Martes a domingos: 09:30 - 14:00 h /&nbsp;15:00 - 19:00 h</p><p><strong>Cerrado:&nbsp;</strong>&nbsp;lunes (incluidos festivos), 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre</p>",
               "name": "Horario"
             }
           ],
@@ -76738,7 +76738,7 @@
           },
           "fechas": ""
         },
-        "fechaActualizacion": "2026-07-03",
+        "fechaActualizacion": "2026-09-23",
         "id": "69338"
       },
       {
