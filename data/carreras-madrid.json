@@ -44,6 +44,48 @@
   },
   "@graph": [
     {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50438982-carrera-ciencia-2026.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50438982",
+      "title": "Carrera de la Ciencia 2026",
+      "description": "",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-10-18 09:00:00.0",
+      "dtend": "2026-10-18 23:59:00.0",
+      "time": "09:00",
+      "excluded-days": "",
+      "audience": "PoblaciónGeneral",
+      "uid": "50438982",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=fae3d6e8dc6f0a10VgnVCM100000891ecb1aRCRD",
+      "event-location": "Agencia Estatal Consejo Superior de Investigaciones Científicas (CSIC)",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=668cd6e8dc6f0a10VgnVCM100000891ecb1aRCRD"
+      },
+      "relation": {
+        "@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6803-agencia-estatal-consejo-superior-investigaciones-cientificas-csic-.json"
+      },
+      "address": {
+        "district": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+        },
+        "area": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/ElViso",
+          "locality": "MADRID",
+          "postal-code": "28006",
+          "street-address": "CALLE SERRANO 117"
+        }
+      },
+      "location": {
+        "latitude": 40.44088390288162,
+        "longitude": -3.687025811952775
+      },
+      "organization": {
+        "organization-name": "Agencia Estatal Consejo Superior de Investigaciones Científicas (CSIC)",
+        "accesibility": "3"
+      }
+    },
+    {
       "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50429436-carrera-enfermedades-reumaticas-2026.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
       "id": "50429436",
@@ -125,6 +167,48 @@
       }
     },
     {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50438683-carrera-solidaria-ruta-091-madrid.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50438683",
+      "title": "Carrera Solidaria Ruta 091 Madrid",
+      "description": "",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-10-18 10:00:00.0",
+      "dtend": "2026-10-18 23:59:00.0",
+      "time": "10:00",
+      "excluded-days": "",
+      "audience": "PoblaciónGeneral",
+      "uid": "50438683",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=4cd0fe25d86f0a10VgnVCM100000891ecb1aRCRD",
+      "event-location": "Parque de la Casa de Campo",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b68efe25d86f0a10VgnVCM100000891ecb1aRCRD"
+      },
+      "relation": {
+        "@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987416-parque-casa-campo.json"
+      },
+      "address": {
+        "district": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+        },
+        "area": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo",
+          "locality": "MADRID",
+          "postal-code": "28011",
+          "street-address": "PASEO PUERTA DEL ANGEL 1"
+        }
+      },
+      "location": {
+        "latitude": 40.41472407139105,
+        "longitude": -3.7301857404819767
+      },
+      "organization": {
+        "organization-name": "Parque de la Casa de Campo",
+        "accesibility": "2"
+      }
+    },
+    {
       "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50367469-correr-madrid-2026-2027.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
       "id": "50367469",
@@ -146,6 +230,108 @@
       "event-location": "",
       "references": {
         "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d82e55de4788f910VgnVCM100000891ecb1aRCRD"
+      }
+    },
+    {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50439392-dc-superheroes-run-2026.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50439392",
+      "title": "DC SuperHeroes Run 2026",
+      "description": "",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-10-18 10:30:00.0",
+      "dtend": "2026-10-18 23:59:00.0",
+      "time": "10:30",
+      "excluded-days": "",
+      "audience": "PoblaciónGeneral",
+      "uid": "50439392",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=753b8c9c357f0a10VgnVCM100000891ecb1aRCRD",
+      "event-location": "",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a8698c9c357f0a10VgnVCM100000891ecb1aRCRD"
+      }
+    },
+    {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50439649-iii-carrera-popular-dia-ictus.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50439649",
+      "title": "III Carrera Popular Día del Ictus",
+      "description": "",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-10-25 09:00:00.0",
+      "dtend": "2026-10-25 23:59:00.0",
+      "time": "09:00",
+      "excluded-days": "",
+      "audience": "PoblaciónGeneral",
+      "uid": "50439649",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=12bc02bc2b7f0a10VgnVCM100000891ecb1aRCRD",
+      "event-location": "",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=ee4c02bc2b7f0a10VgnVCM100000891ecb1aRCRD"
+      }
+    },
+    {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50438505-v-carrera-prevencion-suicidio.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50438505",
+      "title": "V Carrera Prevención del Suicidio",
+      "description": "",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-10-18 11:00:00.0",
+      "dtend": "2026-10-18 23:59:00.0",
+      "time": "11:00",
+      "excluded-days": "",
+      "audience": "PoblaciónGeneral",
+      "uid": "50438505",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=3ee5ec4d766f0a10VgnVCM100000891ecb1aRCRD",
+      "event-location": "Parque Juan Carlos I",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=0602ec4d766f0a10VgnVCM100000891ecb1aRCRD"
+      },
+      "relation": {
+        "@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987836-parque-juan-carlos-i.json"
+      },
+      "address": {
+        "district": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid 28042/Distrito/Barajas"
+        },
+        "area": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid 28042/Distrito/Barajas/Barrio/Corralejos",
+          "locality": "MADRID 28042",
+          "postal-code": "28042",
+          "street-address": "GLORIETA S.A.R. DON JUAN DE BORBON Y BATTEMBERG, 5 5"
+        }
+      },
+      "location": {
+        "latitude": 40.45999848510341,
+        "longitude": -3.6148888706303586
+      },
+      "organization": {
+        "organization-name": "Parque Juan Carlos I",
+        "accesibility": "2"
+      }
+    },
+    {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50316528-xlv-carrera-ciencia.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50316528",
+      "title": "XLV Carrera de la Ciencia",
+      "description": "El próximo 18 de octubre vuelve la Carrera de la Ciencia. Vuela en su recorrido. Un clásico del calendario nacional que celebra su 45ª edición, pensado para atletas de todos los niveles: desde quienes afrontan su primer 10K hasta los corredores más experimentados que no quieren faltar a esta cita por las calles de Madrid. La salida y llegada en la sede del CSIC de la calle Serrano 117, en pleno Barrio de la Ciencia, hacen de esta prueba una experiencia que deja huella. Con C de Ciencia con C de Chamartín. Recogida de dorsal y bolsa el mismo día en la zona de salida, avituallamiento y guardarropa para todos, y una camiseta técnica de alta calidad, 100 % reciclada, todo incluido en la inscripción. Con tu dorsal podrás visitar gratuitamente (hasta cuatro personas) los mejores centros de divulgación científica de Madrid: el Museo Nacional de Ciencias Naturales, el Museo Geominero o el Real Jardín Botánico. El domingo 18 de octubre podrás disfrutar de una carrera única en Madrid. Más información: www.carreradelaciencia.com  Inscripciones hasta el 15/10/2026. Inscríbete aquí:  https://www.carreradelaciencia.com/web-evento/13746-45a-carrera-de-la-ciencia-chamartin-barrio-de-la-ciencia",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-10-18 09:00:00.0",
+      "dtend": "2026-10-18 23:59:00.0",
+      "time": "09:00",
+      "excluded-days": "",
+      "audience": "PoblaciónGeneral",
+      "uid": "50316528",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=15e5c72b34a4e910VgnVCM200000f921e388RCRD",
+      "event-location": "",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=f6b1e1c2ca0c7910VgnVCM1000001d4a900aRCRD"
       }
     }
   ]
