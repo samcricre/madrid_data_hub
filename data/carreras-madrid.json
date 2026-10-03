@@ -253,26 +253,6 @@
       }
     },
     {
-      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50439649-iii-carrera-popular-dia-ictus.json",
-      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
-      "id": "50439649",
-      "title": "III Carrera Popular Día del Ictus",
-      "description": "",
-      "free": 0,
-      "price": "",
-      "dtstart": "2026-10-25 09:00:00.0",
-      "dtend": "2026-10-25 23:59:00.0",
-      "time": "09:00",
-      "excluded-days": "",
-      "audience": "PoblaciónGeneral",
-      "uid": "50439649",
-      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=12bc02bc2b7f0a10VgnVCM100000891ecb1aRCRD",
-      "event-location": "",
-      "references": {
-        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=ee4c02bc2b7f0a10VgnVCM100000891ecb1aRCRD"
-      }
-    },
-    {
       "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50438505-v-carrera-prevencion-suicidio.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
       "id": "50438505",
