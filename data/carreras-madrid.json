@@ -86,48 +86,6 @@
       }
     },
     {
-      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50429436-carrera-enfermedades-reumaticas-2026.json",
-      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
-      "id": "50429436",
-      "title": "Carrera de las Enfermedades Reumáticas 2026",
-      "description": "",
-      "free": 0,
-      "price": "",
-      "dtstart": "2026-10-04 09:00:00.0",
-      "dtend": "2026-10-04 23:59:00.0",
-      "time": "09:00",
-      "excluded-days": "",
-      "audience": "PoblaciónGeneral",
-      "uid": "50429436",
-      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=de0f4c22788c0a10VgnVCM200000f921e388RCRD",
-      "event-location": "Parque Lineal del Manzanares (Usera - Pte de Vallecas)",
-      "references": {
-        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=c9394c22788c0a10VgnVCM200000f921e388RCRD"
-      },
-      "relation": {
-        "@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987787-parque-lineal-manzanares-usera-pte-vallecas-.json"
-      },
-      "address": {
-        "district": {
-          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
-        },
-        "area": {
-          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Almendrales",
-          "locality": "MADRID",
-          "postal-code": "28026",
-          "street-address": "CAMINO PERALES 47"
-        }
-      },
-      "location": {
-        "latitude": 40.379745,
-        "longitude": -3.690042
-      },
-      "organization": {
-        "organization-name": "Parque Lineal del Manzanares (Usera - Pte de Vallecas)",
-        "accesibility": "2"
-      }
-    },
-    {
       "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50429528-carrera-derbi-aficiones-2026.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
       "id": "50429528",
