@@ -50306,7 +50306,7 @@
               "name": "Servicios de pago"
             },
             {
-              "text": "<p style=\"margin-left:0px; margin-right:0px\"><!-- x-tinymce/html --></p><p><strong>Taquillas:</strong></p><p>Lunes: 16:00 - 18:00 h. /Mar - Vie: 10:00 - 17:00 h. /&nbsp;Sábados: 11:00 - 13:00 h. &nbsp;(excepto el mes de julio).</p><p>Las taquillas permanecerán cerradas durante el mes de agosto y el 24 y 31 de diciembre.</p><p>Días de Concierto: taquillas abiertas 60 minutos antes de cada concierto.</p><p><strong>Visitas guiadas</strong> a grupos especializados (conservatorios, estudiantes de Música, colectivos relacionados con Música Clásica o Cultura…): solicitarlas en el email rp.anm@inaem.cultura.gob.es. Las visitas están sujetas a la disponibilidad del espacio.</p>",
+              "text": "<p style=\"margin-left:0px; margin-right:0px\"><!-- x-tinymce/html --></p><p><strong>Taquillas:</strong></p><p>Lunes: 16:00 - 18:00 h. /Mar - Vie: 10:00 - 17:00 h. /&nbsp;Sábados: 11:00 - 13:00 h&nbsp;(excepto el mes de julio).</p><p>Las taquillas permanecerán cerradas durante el mes de agosto y el 24 y 31 de diciembre.</p><p>Días de Concierto: taquillas abiertas 60 minutos antes de cada concierto.</p><p><strong>Visitas guiadas</strong> a grupos especializados (conservatorios, estudiantes de Música, colectivos relacionados con Música Clásica o Cultura…): solicitarlas en el email rp.anm@inaem.cultura.gob.es. Las visitas están sujetas a la disponibilidad del espacio.</p>",
               "name": "Horario"
             }
           ],
@@ -50354,7 +50354,7 @@
           },
           "fechas": ""
         },
-        "fechaActualizacion": "2025-12-26",
+        "fechaActualizacion": "2026-10-13",
         "id": "69686"
       },
       {
