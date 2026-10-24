@@ -86,6 +86,41 @@
       "references": {
         "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d82e55de4788f910VgnVCM100000891ecb1aRCRD"
       }
+    },
+    {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50455454-cross-constitucion-deporte-calle-distrito-villaverde.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50455454",
+      "title": "Cross de la Constitución - Deporte en la Calle - Distrito de Villaverde",
+      "description": "",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-12-05 11:00:00.0",
+      "dtend": "2026-12-05 23:59:00.0",
+      "time": "11:00",
+      "excluded-days": "",
+      "uid": "50455454",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d19aa05806e51a10VgnVCM200000f921e388RCRD",
+      "event-location": "Parque Forestal Julio Alguacil Gómez",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=f40d3f6f78d51a10VgnVCM200000f921e388RCRD"
+      },
+      "relation": {
+        "@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10706071-parque-forestal-julio-alguacil-gomez.json"
+      },
+      "address": {
+        "district": {
+          "@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Distrito"
+        }
+      },
+      "location": {
+        "latitude": 40.36073540960827,
+        "longitude": -3.7177186736043275
+      },
+      "organization": {
+        "organization-name": "Parque Forestal Julio Alguacil Gómez",
+        "accesibility": "2"
+      }
     }
   ]
 }
