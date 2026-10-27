@@ -44,26 +44,6 @@
   },
   "@graph": [
     {
-      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50429528-carrera-derbi-aficiones-2026.json",
-      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
-      "id": "50429528",
-      "title": "Carrera Derbi de las Aficiones 2026",
-      "description": "",
-      "free": 0,
-      "price": "",
-      "dtstart": "2026-10-25 09:00:00.0",
-      "dtend": "2026-10-25 23:59:00.0",
-      "time": "09:00",
-      "excluded-days": "",
-      "audience": "PoblaciónGeneral",
-      "uid": "50429528",
-      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=73813b23f98c0a10VgnVCM200000f921e388RCRD",
-      "event-location": "",
-      "references": {
-        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=fc1e3b23f98c0a10VgnVCM200000f921e388RCRD"
-      }
-    },
-    {
       "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50367469-correr-madrid-2026-2027.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
       "id": "50367469",
