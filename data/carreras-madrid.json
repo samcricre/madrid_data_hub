@@ -101,6 +101,25 @@
         "organization-name": "Parque Forestal Julio Alguacil Gómez",
         "accesibility": "2"
       }
+    },
+    {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50483838-nationale-nederlanden-san-silvestre-vallecana-26.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50483838",
+      "title": "Nationale - Nederlanden San Silvestre Vallecana 26",
+      "description": "",
+      "free": 1,
+      "price": "",
+      "dtstart": "2026-12-31 16:50:00.0",
+      "dtend": "2026-12-31 23:59:00.0",
+      "time": "16:50",
+      "excluded-days": "",
+      "uid": "50483838",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=843c52dff3ac1a10VgnVCM100000891ecb1aRCRD",
+      "event-location": "",
+      "references": {
+        "@id": ""
+      }
     }
   ]
 }
