@@ -44,6 +44,25 @@
   },
   "@graph": [
     {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50484478-15-carrera-popular-madrid-tambien-solidario-2026.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50484478",
+      "title": "15 Carrera Popular Madrid También Solidario 2026",
+      "description": "",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-11-15 10:00:00.0",
+      "dtend": "2026-11-15 23:59:00.0",
+      "time": "10:00",
+      "excluded-days": "",
+      "uid": "50484478",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d103ca35d1fc1a10VgnVCM200000f921e388RCRD",
+      "event-location": "",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=6e9a4366ffec1a10VgnVCM200000f921e388RCRD"
+      }
+    },
+    {
       "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50367469-correr-madrid-2026-2027.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
       "id": "50367469",
@@ -118,7 +137,7 @@
       "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=843c52dff3ac1a10VgnVCM100000891ecb1aRCRD",
       "event-location": "",
       "references": {
-        "@id": ""
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=dbabd89a6c9c1a10VgnVCM100000891ecb1aRCRD"
       }
     }
   ]
