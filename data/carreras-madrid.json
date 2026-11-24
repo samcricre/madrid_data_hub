@@ -44,6 +44,25 @@
   },
   "@graph": [
     {
+      "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50492287-carrera-canillejas-trofeo-jose-cano-2026.json",
+      "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
+      "id": "50492287",
+      "title": "Carrera Canillejas. Trofeo José Cano 2026",
+      "description": "",
+      "free": 0,
+      "price": "",
+      "dtstart": "2026-12-13 11:30:00.0",
+      "dtend": "2026-12-13 23:59:00.0",
+      "time": "11:30",
+      "excluded-days": "",
+      "uid": "50492287",
+      "link": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=5f1eb93d6a702a10VgnVCM100000891ecb1aRCRD",
+      "event-location": "",
+      "references": {
+        "@id": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=9887a8b0464e1a10VgnVCM100000891ecb1aRCRD"
+      }
+    },
+    {
       "@id": "https://datos.madrid.es/egob/catalogo/tipo/evento/50367469-correr-madrid-2026-2027.json",
       "@type": "https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones",
       "id": "50367469",
